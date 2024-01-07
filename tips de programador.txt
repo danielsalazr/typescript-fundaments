@@ -1,0 +1,10 @@
+Crear un buen git ignore facil
+    -https://www.toptal.com/developers/gitignore/
+
+    escribimos en la entrada: window, macos, linux, node
+    y presionamos crear, copiamos y pegamos en el archivo git ignore y ya esta
+
+La version mas soportada de ecmascript en los navegadores es ES5, Es6 esta muy cerca de serlo
+
+Para evitar errores por repetir el nombre de variables en scripts distintos podemos utilizar funciones anonimas autoejecutadas
+    IIFE

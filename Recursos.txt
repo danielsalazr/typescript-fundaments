@@ -1,0 +1,24 @@
+Notas de curso fundamentos de typescrypt
+	-https://francocarrara.notion.site/Curso-de-Fundamentos-de-TypeScript-30ed370135f049a1bd6786302bea9e81
+
+Documentacion de typescript
+	-https://www.typescriptlang.org/
+
+What I learned from Software Engineering at Google
+	-https://swizec.com/blog/what-i-learned-from-software-engineering-at-google/
+	-https://abseil.io/resources/swe-book/html/toc.html
+
+Como hacer un setup con typescrypt
+	-https://www.typescriptlang.org/download
+
+Repositorio del curso
+	-https://github.com/platzi/curso-typescript-fundamentos/tree/1-step
+
+Plugin para deteccion de errores
+	https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens
+
+Tsc cli options
+	-https://www.typescriptlang.org/docs/handbook/compiler-options.html
+
+funciones anonimas autoejecutadas
+	-https://developer.mozilla.org/es/docs/Glossary/IIFE

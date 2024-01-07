@@ -1,0 +1,66 @@
+instalar typescript en el proyecto actual
+    -npm install typescript --save-dev
+
+Inicializar typescript
+    -npx tsc --version
+
+Cremos el archivo .creatorconfig y copiamos y pegamos la siguiente configuracion
+
+    -# Editor configuration, see https://editorconfig.org
+    root = true
+
+    [*]
+    charset = utf-8
+    indent_style = space
+    indent_size = 2
+    insert_final_newline = true
+    trim_trailing_whitespace = true
+
+    [*.ts]
+    quote_type = single
+
+    [*.md]
+    max_line_length = off
+    trim_trailing_whitespace = false
+
+    Descargamos el plugin de vs editorconfig
+
+Activar el detector de errores de typescript 
+    en codigo javascript escribimos //@ts-check en la primera linea de codigo y ya tenemos activo el detector de errores
+
+inicializar proyecto de typescript
+    -npx tsc --init
+
+Ejecutar typescrript para crear un archivo javascript en es4,es5 o es6
+    -npx tsc
+    -Ejecutar el comando “npx tsc -p ./ -w”
+    Esto compilará en el mismo directorio todos tus archivos .ts
+    -Modificar el target o el destino (para enviar los compilados a /dist) En el archivo tsconfig.json busca la bandera “outDir” y modifícala para que quede así: “outDir”: “./dist”,
+    Listo, ya tienes configurado lo neces
+
+    Como resultado veremos que se creo un archivo nuevo de javascript con el mismo nombre del archiv en typescript
+
+ejecutar typescript 
+    -npx tsc
+    -npx tsc --target es6 // crear javascript de los typescript en formato ES6
+    -npx tsc --target es6 --outDir dist //crear archivos javascript en formatos Es6 y enviarlos a la carpeta dist
+
+Configurar el archivo tsconfig.josn para trabajar a nuestro gusto
+    -"rootDir": "./src",
+    -"outDir": "./dist",
+    -"target": "ES6",//"es2016", 
+
+realizar compilacion en tiempo real
+    Realizar una escucha constante de nuestro archivo y traducirlo
+    -npx tsc --watch   
+
+Control de la flexibilidad
+
+    Gracias a TypeScript podemos manejar el tipado de las variables para evitar anomalías en el código.
+
+    En JavaScript, para declarar una variable constante lo realizamos así:
+
+    -const productPrice = 12;
+    En TypeScript, para el caso anterior, es similar solo que añadimos : y el tipo de dato de la variable, la cual sería number. A esto último se le llama type annotation o anotación de tipo:
+
+    -const productPrice: number = 12;
