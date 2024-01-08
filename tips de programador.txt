@@ -8,3 +8,9 @@ La version mas soportada de ecmascript en los navegadores es ES5, Es6 esta muy c
 
 Para evitar errores por repetir el nombre de variables en scripts distintos podemos utilizar funciones anonimas autoejecutadas
     IIFE
+
+
+  Librerias interesantes
+
+- date-fns => Manejo de Fechas
+- lodash => Perrmite trabajar mas facil con arrays, numbers, objects and strings

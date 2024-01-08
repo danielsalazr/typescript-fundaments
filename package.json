@@ -9,6 +9,11 @@
   "author": "Daniel Salzar Muñoz",
   "license": "ISC",
   "devDependencies": {
+    "@types/lodash": "^4.14.202",
     "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "date-fns": "^3.1.0",
+    "lodash": "^4.17.21"
   }
 }
